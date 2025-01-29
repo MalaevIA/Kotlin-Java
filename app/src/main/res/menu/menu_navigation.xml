@@ -1,0 +1,10 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/nav_download"
+        android:title="Загрузить новую книгу"
+        android:icon="@drawable/ic_download"/>
+    <item
+        android:id="@+id/nav_books"
+        android:title="Книги"
+        android:icon="@drawable/ic_book"/>
+</menu>

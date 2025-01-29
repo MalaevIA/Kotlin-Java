@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".DeveloperFragment">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:text="Малаев Илья Александрович"
+        android:gravity="center_horizontal"
+        android:textStyle="italic|bold"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:text="ИКБО-35-22"
+        android:layout_marginTop="20dp"
+        android:gravity="center_horizontal"
+        android:textStyle="italic|bold"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:text="Почта: otkritie222@gmail.com"
+        android:layout_marginTop="40dp"
+        android:gravity="center_horizontal"
+        android:textStyle="italic|bold"/>
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="166dp"
+        android:layout_height="164dp"
+        android:src="@mipmap/ia_avatar_round"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="70dp"/>
+
+</FrameLayout>
